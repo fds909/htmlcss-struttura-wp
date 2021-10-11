@@ -1,3 +1,44 @@
 /* RESET */ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* COMMON */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Struttura Layout */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Per impostare l'ordine in cui
+    Si vanno a posizionare le colonne */ 
+.col {
+    float: left;
+}
+
+/* HEADER */
+.header-top {
+    height: 100px;
+    background-color: #e579e6;
+}
+
+.header-bottom {
+    height: 500px;
+    background-color: #e1d67a;
+    margin-top: 30px;
+}
+
+
+
+/* MAIN */
+
+
+/* FOOTER */
